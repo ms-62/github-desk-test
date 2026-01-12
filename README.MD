@@ -1,29 +1,27 @@
-🧩 Git Workflow Playground
-GitHub Desktop · CLI · GUI 환경에서 Git 동작을 실행해 보고, 차이를 이해하기 위한 연습용 레포지토리입니다.​
+# 🚀 Git Workflow Exploration
 
-🗂️ 프로젝트 소개
-이 레포지토리는 다음 세 가지 환경에서 동일한 Git 작업을 수행해 보며 차이를 체감하는 것을 목표로 합니다.​
+> **CLI vs GitHub Desktop vs GUI** 환경에서의 Git 동작 차이를 학습하고 기록하는 레포지토리입니다. [conversation_history:1]
 
-🖥️ CLI (Command Line Interface)
+---
 
-예: git init, git add, git commit, git push 등 순수 터미널 기반 Git 명령어 실습​
+## 📌 개요
+동일한 Git 명령이 인터페이스에 따라 어떻게 표현되고 처리되는지 비교 학습합니다. [conversation_history:1]
 
-🧱 GitHub Desktop
+## 🛠 실습 환경 비교
 
-GitHub에서 제공하는 데스크톱 앱을 사용해 시각적으로 커밋/브랜치/PR을 관리하는 방법 실습​
+| 환경 | 주요 도구 | 특징 |
+| :--- | :--- | :--- |
+| **CLI** | Terminal, iTerm2, PowerShell | 명령어를 직접 입력하며 원리를 깊이 있게 이해 가능 |
+| **GitHub Desktop** | GitHub Desktop App | 입문자에게 최적화된 직관적인 UI와 빠른 워크플로우 |
+| **GUI** | Sourcetree, GitKraken, VS Code Git | 복잡한 브랜치 그래프 시각화 및 충돌 해결에 강점 |
 
-🪟 기타 GUI 클라이언트
+[conversation_history:1]
 
-예: SourceTree, Fork, GitKraken 등 그래픽 UI 기반 Git 도구 비교 실습​
+## 🎯 학습 체크리스트
+각 인터페이스에서 다음 동작들을 수행하며 차이점을 기록해 보세요. [conversation_history:1]
 
-이 레포지토리는 **“어떻게 동작하는지”보다 “각 환경이 어떤 경험과 관점을 주는지”**에 집중합니다.​
-
-🎯 학습 목표
-이 레포지토리를 활용하면 다음을 경험할 수 있습니다.​
-
-동일한 Git 작업을 서로 다른 인터페이스에서 수행해 보고 공통 개념(커밋, 브랜치, 리모트 등)을 이해합니다.​
-
-CLI, GitHub Desktop, GUI 클라이언트 각각의 장단점과 사용성을 체감합니다.​
-
-본인에게 잘 맞는 Git 워크플로를 설계하는 데 기초를 마련합니다.​
-
+- [ ] **`clone`** : 원격 저장소 복제 방식 비교
+- [ ] **`commit`** : 변경 사항 스테이징 및 메시지 작성 경험
+- [ ] **`branch`** : 브랜치 생성 및 전환(Switch) 시각화 확인
+- [ ] **`merge / conflict`** : 코드 충돌 시 해결 화면 비교
+- [ ] **`push / pull`** : 원격 저장소와의 동기화 방식
