@@ -34,4 +34,4 @@ dev 브랜치 생성
 main도 수정해서 conflict 발생시키기
 
 ### 로컬에서 수정함
-main도 수정해서 conflict 발생시키기
+main도 수정해서 conflict 
