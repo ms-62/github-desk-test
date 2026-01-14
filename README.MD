@@ -30,4 +30,5 @@
 - 한 번 더 수정합니다
 - feature 추가
 ## conflict demo
+dev 브랜치 생성
 main도 수정해서 conflict 발생시키기
